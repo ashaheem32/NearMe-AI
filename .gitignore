@@ -1,0 +1,48 @@
+# Python cache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+
+# Environment variables & secrets
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit generated files
+.streamlit/
+# If you use streamlit for auth/session state, keep this for safety
+
+# VS Code workspace settings
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Mac system files
+*.DS_Store
+
+# PyCharm
+.idea/
+
+# Ignore dataset files (if you add them)
+data/
+datasets/
+*.csv
+
+# Ignore test output files
+test-output/
